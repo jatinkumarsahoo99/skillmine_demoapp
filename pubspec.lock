@@ -53,10 +53,10 @@ packages:
     dependency: transitive
     description:
       name: dio
-      sha256: "0978e9a3e45305a80a7210dbeaf79d6ee8bee33f70c8e542dc654c952070217f"
+      sha256: "11e40df547d418cc0c4900a9318b26304e665da6fa4755399a9ff9efd09034b5"
       url: "https://pub.dev"
     source: hosted
-    version: "5.4.2+1"
+    version: "5.4.3+1"
   fake_async:
     dependency: transitive
     description:
@@ -83,6 +83,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  font_awesome_flutter:
+    dependency: transitive
+    description:
+      name: font_awesome_flutter
+      sha256: "275ff26905134bcb59417cf60ad979136f1f8257f2f449914b2c3e05bbb4cd6f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.7.0"
   get:
     dependency: "direct main"
     description:
@@ -142,11 +150,9 @@ packages:
   skillmineauth:
     dependency: "direct main"
     description:
-      path: "."
-      ref: main
-      resolved-ref: d3033c68fc5dbb0787874251c62d4e4de728fc45
-      url: "https://github.com/jatinkumarsahoo99/skillmineauth.git"
-    source: git
+      path: "/Users/jatinkumarsahoo/skillmineauth"
+      relative: false
+    source: path
     version: "0.0.2"
   sky_engine:
     dependency: transitive

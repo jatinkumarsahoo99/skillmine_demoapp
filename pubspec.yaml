@@ -7,11 +7,12 @@ environment:
 
 dependencies: 
   cupertino_icons: ^1.0.2
-#  skillmineauth: any
   skillmineauth:
-    git:
-      url: https://github.com/jatinkumarsahoo99/skillmineauth.git
-      ref: main
+    path: /Users/jatinkumarsahoo/skillmineauth
+#  skillmineauth:
+#    git:
+#      url: https://github.com/jatinkumarsahoo99/skillmineauth.git
+#      ref: main
   get: 4.6.6
   flutter: 
     sdk: flutter
@@ -23,4 +24,8 @@ dev_dependencies:
 
 flutter: 
   uses-material-design: true
+
+#  assets:
+#    - packages/skillmineauth/assets/images
+
 
